@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3F06C48021D0A859003A4CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C47F21D0A859003A4CFF /* AppDelegate.swift */; };
-		3F06C48221D0A859003A4CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C48121D0A859003A4CFF /* ViewController.swift */; };
+		3F06C48221D0A859003A4CFF /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C48121D0A859003A4CFF /* BillViewController.swift */; };
 		3F06C48521D0A859003A4CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F06C48321D0A859003A4CFF /* Main.storyboard */; };
 		3F06C48821D0A859003A4CFF /* SaveMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C48621D0A859003A4CFF /* SaveMoney.xcdatamodeld */; };
 		3F06C48A21D0A85A003A4CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F06C48921D0A85A003A4CFF /* Assets.xcassets */; };
 		3F06C48D21D0A85A003A4CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F06C48B21D0A85A003A4CFF /* LaunchScreen.storyboard */; };
 		3F06C49821D0A85A003A4CFF /* SaveMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C49721D0A85A003A4CFF /* SaveMoneyTests.swift */; };
 		3F06C4A321D0A85A003A4CFF /* SaveMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C4A221D0A85A003A4CFF /* SaveMoneyUITests.swift */; };
+		3F06C4B121D0B8DE003A4CFF /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06C4B021D0B8DE003A4CFF /* BillTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		3F06C47C21D0A859003A4CFF /* SaveMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F06C47F21D0A859003A4CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F06C48121D0A859003A4CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F06C48121D0A859003A4CFF /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
 		3F06C48421D0A859003A4CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F06C48721D0A859003A4CFF /* SaveMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaveMoney.xcdatamodel; sourceTree = "<group>"; };
 		3F06C48921D0A85A003A4CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		3F06C49E21D0A85A003A4CFF /* SaveMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F06C4A221D0A85A003A4CFF /* SaveMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMoneyUITests.swift; sourceTree = "<group>"; };
 		3F06C4A421D0A85A003A4CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F06C4B021D0B8DE003A4CFF /* BillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				3F06C47F21D0A859003A4CFF /* AppDelegate.swift */,
-				3F06C48121D0A859003A4CFF /* ViewController.swift */,
+				3F06C48121D0A859003A4CFF /* BillViewController.swift */,
 				3F06C48321D0A859003A4CFF /* Main.storyboard */,
+				3F06C4B021D0B8DE003A4CFF /* BillTableViewCell.swift */,
 				3F06C48921D0A85A003A4CFF /* Assets.xcassets */,
 				3F06C48B21D0A85A003A4CFF /* LaunchScreen.storyboard */,
 				3F06C48E21D0A85A003A4CFF /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F06C4B121D0B8DE003A4CFF /* BillTableViewCell.swift in Sources */,
 				3F06C48821D0A859003A4CFF /* SaveMoney.xcdatamodeld in Sources */,
-				3F06C48221D0A859003A4CFF /* ViewController.swift in Sources */,
+				3F06C48221D0A859003A4CFF /* BillViewController.swift in Sources */,
 				3F06C48021D0A859003A4CFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
